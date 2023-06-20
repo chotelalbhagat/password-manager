@@ -9,7 +9,7 @@ Class Database{
 
     function __construct(){
         // Database Name
-        $this->dbname = 'psa_db';
+        $this->dbname = 'password_manager';
         // Table Name
         $this->tblname = 'record_list';
         // Host Name
@@ -17,7 +17,7 @@ Class Database{
         // DB Username
         $this->username = 'root';
         // Database Name
-        $this->password = '';
+        $this->password = 'Local@123#';
 
         $this->conn = new mysqli($this->host, $this->username, $this->password);
         
